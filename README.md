@@ -22,7 +22,6 @@ List of required Python libraries and packages that need to be installed in a pi
 
 <img width="400" height="329" alt="key_image" src="https://github.com/user-attachments/assets/9d1295e9-cce9-4015-9942-34689b82ae45" />
 
-
 ```
 @article{ehrm26,
   title = {Controlling energy delivery with bistable nanostructures},
