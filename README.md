@@ -1,6 +1,6 @@
 # Code for _Controlling energy delivery with bistable nanostructures_
 
-The scripts in this repository perform the numerical calculations shown in Figures 4, 6, and 7 of the manuscript [_Controlling energy delivery with bistable nanostructures_](https://doi.org/10.1103/llzj-hmxz).
+The source code in this repository allows to perform the numerical calculations and generate the essential data presented in Figures 4, 6, and 7 of the manuscript [_Controlling energy delivery with bistable nanostructures_](https://doi.org/10.1103/llzj-hmxz).
 
 <img width="982" height="810" alt="key_image" src="https://github.com/user-attachments/assets/b01075a7-a2b3-4308-a92b-2059ce1b27e5" />
 
@@ -8,7 +8,7 @@ The scripts in this repository perform the numerical calculations shown in Figur
 
 
 ## Instructions
-To run the scripts, simply run the ``slurm_array.sh`` script on your cluster using a Python environment to run an ensemble of long Brownian Dynamics simulations. This will import all relevant packages and run long Brownian Dynamics simulations for an ensemble of Machine-only systems using the code ``individual_simulation_state.py`` or simulations of an ensemble of coupled systems of Machine & Source at a fixed binding energy $\epsilon$ using the code ``coupled_simulation_state.py`` and save relevant data.
+To run the scripts, simply run the ``slurm_array.sh`` script on your cluster using a Python environment to run an ensemble of long Brownian dynamics simulations. This will import all relevant packages and run long Brownian dynamics simulations for an ensemble of Machine-only systems using the code ``individual_simulation_state.py`` or simulations of an ensemble of coupled systems of Machine & Source at a fixed binding energy $\epsilon$ using the code ``coupled_simulation_state.py`` and save relevant data.
 The data contains information about the Machine actions and the measures of merit of the energy-delivery mechanism: performance, power, and efficiency as well as the number of Machine actions and the number of Source recharging events.
 For varying binding energies $\epsilon$, change the corresponding parameter in the main python script ``coupled_simulation_state.py`` and save the data in separate folders for the analysis.
 
@@ -25,7 +25,7 @@ List of required Python libraries and packages that need to be installed in a pi
 
 ## Citation
 
-Andreas Ehrmann and Carl P. Goodrich, _Controlling energy delivery with bistable nanostructures_, [_Physical Review X (2026)_](https://doi.org/10.1103/llzj-hmxz).
+Andreas Ehrmann and Carl P. Goodrich, _Controlling energy delivery with bistable nanostructures_, [Physical Review X (2026)](https://doi.org/10.1103/llzj-hmxz).
 
 ```
 @article{ehrm26,
