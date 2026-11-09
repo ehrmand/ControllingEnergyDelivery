@@ -25,6 +25,8 @@ List of required Python libraries and packages that need to be installed in a pi
 
 ## Citation
 
+Andreas Ehrmann and Carl P. Goodrich, _Controlling energy delivery with bistable nanostructures_, [_Physical Review X (2026)_](https://doi.org/10.1103/llzj-hmxz).
+
 ```
 @article{ehrm26,
   title = {Controlling energy delivery with bistable nanostructures},
