@@ -7,8 +7,8 @@ The source code in this repository allows to perform the numerical calculations 
 ``A two-state source nanostructure (blue) uses an energy-delivery mechanism akin to ATP hydrolysis to power a nanomachine (black) through a two-stage coupled relaxation process. © Andreas Ehrmann''
 
 
-## Instructions
-To run the scripts, simply run the ``slurm_array.sh`` script on your cluster using a Python environment to run an ensemble of long Brownian dynamics simulations. This will import all relevant packages and run long Brownian dynamics simulations for an ensemble of Machine-only systems using the code ``individual_simulation_state.py`` or simulations of an ensemble of coupled systems of Machine & Source at a fixed binding energy $\epsilon$ using the code ``coupled_simulation_state.py`` and save relevant data.
+## Getting started
+To run the scripts, simply run the ``slurm_array.sh`` script on your cluster using a Python environment to run an ensemble of long Brownian Dynamics simulations. This will import all relevant packages and run long Brownian Dynamics simulations for an ensemble of Machine-only systems using the code ``individual_simulation_state.py`` or simulations of an ensemble of coupled systems of Machine & Source at a fixed binding energy $\epsilon$ using the code ``coupled_simulation_state.py`` and save relevant data.
 The data contains information about the Machine actions and the measures of merit of the energy-delivery mechanism: performance, power, and efficiency as well as the number of Machine actions and the number of Source recharging events.
 For varying binding energies $\epsilon$, change the corresponding parameter in the main python script ``coupled_simulation_state.py`` and save the data in separate folders for the analysis.
 
