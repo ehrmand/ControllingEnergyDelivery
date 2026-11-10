@@ -1,6 +1,11 @@
 # Code for _Controlling energy delivery with bistable nanostructures_
 
-The scripts in this repository perform the numerical calculations shown in Figures 4, 6, and 7 of the manuscript [_Controlling energy delivery with bistable nanostructures_](https://doi.org/10.48550/arXiv.2506.14266).
+The source code in this repository allows to perform the numerical calculations and generate the essential data presented in Figures 4, 6, and 7 of the manuscript [_Controlling energy delivery with bistable nanostructures_](https://doi.org/10.1103/llzj-hmxz).
+
+<img width="982" height="810" alt="key_image" src="https://github.com/user-attachments/assets/b01075a7-a2b3-4308-a92b-2059ce1b27e5" />
+
+``A two-state source nanostructure (blue) uses an energy-delivery mechanism akin to ATP hydrolysis to power a nanomachine (black) through a two-stage coupled relaxation process. © Andreas Ehrmann''
+
 
 ## Getting started
 To run the scripts, simply run the ``slurm_array.sh`` script on your cluster using a Python environment to run an ensemble of long Brownian Dynamics simulations. This will import all relevant packages and run long Brownian Dynamics simulations for an ensemble of Machine-only systems using the code ``individual_simulation_state.py`` or simulations of an ensemble of coupled systems of Machine & Source at a fixed binding energy $\epsilon$ using the code ``coupled_simulation_state.py`` and save relevant data.
@@ -16,18 +21,18 @@ Comments
 List of required Python libraries and packages that need to be installed in a pip environment:
 - jax, jax_md, jaxopt
 - scipy, matplotlib, os, sys, pickle, xarray, typing
-- common_utils ([https://git.ista.ac.at/goodrichgroup/common_utils](https://git.ista.ac.at/goodrichgroup/common_utils))
+- common_utils ([_git.ista.ac.at/goodrichgroup/common_utils_](https://git.ista.ac.at/goodrichgroup/common_utils))
 
 ## Citation
 
-<img width="400" height="329" alt="key_image" src="https://github.com/user-attachments/assets/9d1295e9-cce9-4015-9942-34689b82ae45" />
+Andreas Ehrmann and Carl P. Goodrich, _Controlling energy delivery with bistable nanostructures_, [Physical Review X (2026)](https://doi.org/10.1103/llzj-hmxz).
 
 ```
 @article{ehrm26,
   title = {Controlling energy delivery with bistable nanostructures},
   author = {Ehrmann, Andreas and Goodrich, Carl P.},
-  year = {2025},
-  journal = {arXiv:2506.14266},
-  doi = {10.48550/arXiv.2506.14266},
+  year = {2026},
+  journal = {Physical Review X},
+  doi = {10.1103/llzj-hmxz),
 }
 ```
